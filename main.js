@@ -14,7 +14,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[0].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[0].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[0].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[0].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[0].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[0].points}</td>
     </tr>
     <tr>
@@ -22,7 +22,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[1].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[1].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[1].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[1].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[1].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[1].points}</td>
     </tr>
     <tr>
@@ -30,7 +30,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[2].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[2].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[2].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[2].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[2].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[2].points}</td>
     </tr>
     <tr>
@@ -38,7 +38,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[3].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[3].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[3].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[3].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[3].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[3].points}</td>
     </tr>
     <tr>
@@ -46,7 +46,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[4].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[4].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[4].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[4].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[4].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[4].points}</td>
     </tr>
     <tr>
@@ -54,7 +54,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[5].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[5].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[5].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[5].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[5].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[5].points}</td>
     </tr>
     <tr>
@@ -62,7 +62,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[6].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[6].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[6].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[6].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[6].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[6].points}</td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[7].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[7].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[7].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[7].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[7].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[7].points}</td>
     </tr>
     <tr>
@@ -78,7 +78,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[8].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[8].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[8].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[8].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[8].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[8].points}</td>
     </tr>
     <tr>
@@ -86,7 +86,7 @@ async function getStandings(currentYear,currentRound) {
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[9].Driver.givenName} 
         ${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[9].Driver.familyName}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[9].Driver.nationality}</td>
-        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[9].Constructors.name}</td>
+        <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[9].Constructors[0].name}</td>
         <td>${data.MRData.StandingsTable.StandingsLists[0].DriverStandings[9].points}</td>
     </tr>
         `
